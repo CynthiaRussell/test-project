@@ -1,0 +1,127 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+        padding: 0;
+        border: 0;
+        margin: 0;
+      }
+      body {
+        padding: 0 0 0 0;
+      }
+        .header {
+            padding: 10px 10px 10px 10px;
+        }
+        .header a {
+            color: #ffffff;
+        }
+        .main-content {
+            width: 500px;
+            padding: 20px;
+            border: 1px solid #dddddd;
+            margin: 30px auto 0 auto;
+        }
+        .content-section {
+            padding: 15px;
+            width: 450px;
+            margin: 0 auto;
+        }
+        .content-section h2 {
+            text-align: center;
+        }
+        .bands-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .bands-list a {
+            text-decoration: none;
+            color: #ff2244;
+        }
+        .bands-list li {
+            border: 1px solid #555555;
+        }
+      
+      h1 {
+        color: #ffffff;
+        margin: 0 0 15px 0; 
+        text-align: center;
+      }
+      h2 {
+        color: #000000;
+        padding: 6px 3px 0 0;
+        border-top: 6px solid black;
+        border-right: 3px dotted orange;
+        border-bottom: 0;
+        border-left: 0;
+        margin: 15px 0 0 0; 
+        text-align: center;  
+      }
+      h3 {
+        margin: 15px 0 1px 0;
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 3px;    
+      }
+        .recipes h3 {
+            border-bottom: 0;
+        }
+        .bands-list h3 {
+            border-bottom: 0;
+            margin: 0;
+        }
+      h4 {
+        color: #666666;
+         margin: 10px 0 10px 0;
+       }
+        .album {
+            border: 2px dashed;
+            padding: 10px 5px 10px 5px;
+            margin: 5px;
+      }  
+      ul {
+        padding-left: 30px;
+      }
+        .nav {
+            padding-left: 0;
+            text-align: center;
+        }
+        .nav a {
+            color: #0000af;
+            text-decoration: none;
+        }
+        .nav li {
+            display: inline;
+            padding-right: 20px;
+        }
+        .nav li:last-child {
+            padding-right: 0;
+        }
+        .recipes {
+            list-style-type: none; 
+            padding: 0; 
+        } 
+        .recipes li {
+            border: 1px solid #b56663;
+            padding-left: 15px;
+        }
+        .recipes a {
+            color: #7facaa;
+            text-decoration: none;
+        }
+      ol {
+        padding: 0 0 0 50px;
+        }
+      li {
+        margin-bottom: 5px; 
+      }  
+      p {
+        color: #444444;
+        margin: 0 0 10px 0;
+      }
+        .day-time {
+            color: #444444;
+            text-decoration: underline;
+        }
+        .concert-location {
+            color: #888888;
+            text-decoration: underline;
+            }
+      a {
+        color: red;
+      }
